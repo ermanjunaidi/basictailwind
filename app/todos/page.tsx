@@ -3,8 +3,10 @@ import TodoList from './TodoList'
 
 function Todos() {
   return (
-    /* @ts-ignore */
+    <div>
+    {/* @ts-ignore */}
     <TodoList />
+    </div>
   ) 
 }
 
